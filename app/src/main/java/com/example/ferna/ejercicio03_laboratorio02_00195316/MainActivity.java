@@ -39,13 +39,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int opc = v.getId();
         switch (opc){
             case R.id.et_01:
-                et1.setBackgroundColor(Color.parseColor("#ff0000"));
+                et1.setBackgroundColor(Color.parseColor(getString(R.string.color_amarillo)));
                 break;
             case R.id.et_02:
-                et2.setBackgroundColor(Color.parseColor("#00ff00"));
+                et2.setBackgroundColor(Color.parseColor(getString(R.string.color_celeste)));
                 break;
             case R.id.et_03:
-                et3.setBackgroundColor(Color.parseColor("#0000ff"));
+                et3.setBackgroundColor(Color.parseColor(getString(R.string.color_morado)));
                 break;
         }
 

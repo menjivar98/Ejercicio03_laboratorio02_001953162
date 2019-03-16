@@ -8,28 +8,28 @@
     tools:context=".MainActivity"
     android:id="@+id/ll_main">
 
-    <EditText
+    <TextView
         android:id="@+id/et_01"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#2BC5B8"
+        android:background="@color/Rojo"
         android:layout_marginBottom="10dp"
         />
 
-    <EditText
+    <TextView
         android:id="@+id/et_02"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#FA9B20"
+        android:background="@color/color_verde"
         />
-    <EditText
+    <TextView
         android:id="@+id/et_03"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#8EF44A"
+        android:background="@color/color_azul"
         android:layout_marginTop="10dp"
        />
 

@@ -6,12 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    public EditText et1;
-    public EditText et2;
-    public EditText et3;
+    public TextView et1;
+    public TextView et2;
+    public TextView et3;
     private LinearLayout main;
 
 
